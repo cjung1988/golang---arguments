@@ -28,10 +28,15 @@ func main() {
 	// print length
 	fmt.Printf("The arguments array length is %d \n", length)
 
-	// print all data inside of a array
-	// for each loop
-	for i, s := range argsWithoutProg {
-		fmt.Println(i, s)
-	}
+	// check if the length is not null
+	if length != 0 {
 
+		// print all data inside of a array
+		// for each loop
+		for i, s := range argsWithoutProg {
+			fmt.Println(i, s)
+		}
+	} else {
+		fmt.Println("No args found, please add some arguments to the program.")
+	}
 }
