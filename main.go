@@ -7,10 +7,10 @@ import (
 
 func main() {
 
-	// start the programm
+	// start the program
 	fmt.Println("Start programm")
 
-	// get args from programm
+	// get args from program
 	argsWithProg := os.Args
 
 	// print args with prog
@@ -22,7 +22,7 @@ func main() {
 	// print args without prog
 	fmt.Printf("%s\n", argsWithoutProg)
 
-	// get lengt of argument array
+	// get length of argument array
 	length := len(argsWithoutProg)
 
 	// print length
