@@ -8,7 +8,7 @@ import (
 func main() {
 
 	// start the programm
-	fmt.Println("Run programm")
+	fmt.Println("Start programm")
 
 	// get args from programm
 	argsWithProg := os.Args
@@ -33,4 +33,5 @@ func main() {
 	for i, s := range argsWithoutProg {
 		fmt.Println(i, s)
 	}
+
 }
